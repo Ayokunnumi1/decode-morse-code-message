@@ -35,3 +35,6 @@ puts char
 
 word = decode_word('-- -.--')
 puts word
+
+message = decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+puts message
