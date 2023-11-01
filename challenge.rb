@@ -14,12 +14,6 @@ def decode_char(morse_code)
   morse_letters[morse_code]
 end
 
-morse_code_to_test = [
-  '.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---',
-  '-.-', '.-..', '--', '-.', '---', '.--.', '--.-', '.-.', '...', '-',
-  '..-', '...-', '.--', '-..-', '-.--', '--..'
-]
-
 # Method to decode an entire word in Morse code, takes a string parameter, and return the string representation
 def decode_word(morse_word)
   morse_word.split.map { |morse_char| decode_char(morse_char) }.join
@@ -28,10 +22,9 @@ end
 # Method to decode the entire message in Morse code,takes a string parameter, and return the string representation
 
 
-#test methods 
-char = decode_char(".-")
+# test methods
+char = decode_char('.-')
 puts char
 
-word = decode_word("-- -.--")
+word = decode_word('-- -.--')
 puts word
-
