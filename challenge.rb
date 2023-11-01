@@ -20,7 +20,14 @@ def decode_word(morse_word)
 end
 
 # Method to decode the entire message in Morse code,takes a string parameter, and return the string representation
-
+def decode_message(morse_code)
+  decoded_message = ''
+  words = morse_code.split('   ')
+  words.each do |word|
+    decoded_message += "#{decode_word(word)} "
+  end
+  decoded_message
+end
 
 # test methods
 char = decode_char('.-')
