@@ -41,7 +41,7 @@
 
 # 📖DECODE MORSE CODE MESSAGE <a name="about-project"></a>
 
-> This is a data project built with Ruby created to decode a Morse code character, message or word
+> This is a project filled with methods on how to decode a Morse code character, message or word built with Ruby
 ## 🛠 Built With <a name="built-with"></a>
 
 1. Ruby
@@ -159,7 +159,11 @@ npm run test
 - Twitter: [@Ayokunnumi](https://twitter.com/AyokunnumiA)
 - LinkedIn: [@Ayokunnumi](https://www.linkedin.com/in/ayokunnumiomololu)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **Obi Anthony**
+
+- GitHub: [@megagig](https://github.com/megagig)
+- Twitter: [@megagigsolution](https://twitter.com/megagigsolution)
+- LinkedIn: [Anthony Obi](https://www.linkedin.com/in/obi-anthony-440a1430/)
 
 <!-- ## 🔭 Future Features <a name="future-features"></a>
 
