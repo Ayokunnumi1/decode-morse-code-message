@@ -35,3 +35,4 @@ puts char
 
 word = decode_word('-- -.--')
 puts word
+
