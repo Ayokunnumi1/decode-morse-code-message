@@ -1,4 +1,4 @@
-# decode a Morse code character, takes a string parameter, and return the corresponding character in uppercase
+# method to decode a Morse code character, takes a string parameter, and return the corresponding character in uppercase
 def decode_char(morse_code)
   morse_letters = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C',
@@ -20,17 +20,18 @@ morse_code_to_test = [
   '..-', '...-', '.--', '-..-', '-.--', '--..'
 ]
 
-morse_code_to_test.each do |morse_code|
-  decoded_letter = decode_char(morse_code)
-  puts "Morse Code: #{morse_code} => Decoded Letter: #{decoded_letter}"
+# Method to decode an entire word in Morse code, takes a string parameter, and return the string representation
+def decode_word(morse_word)
+  morse_word.split.map { |morse_char| decode_char(morse_char) }.join
 end
 
-# decode an entire word in Morse code, takes a string parameter, and return the string representation
-def decode_word(morse_code)
-  decoded_word = ''
-  chars = morse_code.split
-  chars.each do |char|
-    decoded_word += decode_char(char)
-  end
-  decoded_word
-end
+# Method to decode the entire message in Morse code,takes a string parameter, and return the string representation
+
+
+#test methods 
+char = decode_char(".-")
+puts char
+
+word = decode_word("-- -.--")
+puts word
+
